@@ -1,0 +1,231 @@
+*,*:before,*:after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	background: url(../img/bg.jpg) 0 0;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto
+}
+
+
+.main {
+	color: #fff;
+}
+.main__body {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin: 12% -15px 0px -15px;
+}
+.main__column {
+	flex: 0 1 33.333%;
+	margin: 0 15px;
+	border: 2px solid #354257;
+	background-color: #445166;
+	padding: 5px 10px;
+	display: flex;
+}
+.main__item {
+	display: flex;
+	flex-direction: column;
+}
+.item__title {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 0;
+}
+.item__image {
+	width: 100%;
+}
+.item__image img{
+	width: 100%;
+}
+.item__description {
+	margin: 10px 0px 0px 0px;
+	flex: 1 1 auto;
+}
+.item__link{
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding: 10px 24px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 10px 0px 0px 0px;
+}
+
+
+.basket__titles {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	border-bottom: 1px solid #bbb;
+}
+.basket__title{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.basket__gallery {
+	margin: 5px 0;
+}
+.basket__row {
+	display: flex;
+	margin: 15px -15px;
+}
+.basket__column {
+	flex: 0 1 33.3333%;
+	margin: 0 15px;
+}
+.basket__item {
+	width: 100%;
+	height: 300px;
+}
+.basket__item.first{
+	background: url(../img/basketball/1.jpg) no-repeat center/cover;
+}
+.basket__item.second{
+	background: url(../img/basketball/2.jpg) no-repeat center/cover;
+}
+.basket__item.third{
+	background: url(../img/basketball/3.jpg) no-repeat center/cover;
+}
+.basket__item.fourth{
+	background: url(../img/basketball/4.jpg) no-repeat center/cover;
+}
+.basket__item.fifth{
+	background: url(../img/basketball/5.jpg) no-repeat center/cover;
+}
+.basket__item.sixth{
+	background: url(../img/basketball/6.jpg) no-repeat center/cover;
+}
+.basket__text p{
+	margin: 10px 0;
+}
+.text__subtitle {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+.text__list {
+	margin: 0px 0px 0px 15px;
+}
+.web__titles {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	border-bottom: 1px solid #bbb;
+}
+.web__title{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.web__images {
+	margin: 10px 0px 0px 0px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.web__item {
+	flex: 0 1 50%;
+}
+.web__item img{
+	width: 100%;
+	height: 100%;
+}
+.web__text{
+	margin: 10px 0px 0px 0px;
+}
+.web__text p{
+	margin: 10px 0;
+}
+.games__titles {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	border-bottom: 1px solid #bbb;
+}
+.games__title{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.games__gallery {
+	margin: 20px 0px 0px 0px;
+}
+.gallery__row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 0 -15px;
+}
+.gallery__column {
+	padding: 0 15px;
+	flex: 0 1 33.3333%;
+}
+.gallery__item{
+	cursor: pointer;
+	transition: .3s all;
+}
+.gallery__item:hover{
+	transform: scale(1.1);
+}
+.gallery__item img{
+	width: 100%;
+}
+.games__text{
+	margin: 20px 0px 0px 0px;
+}
+.games__text p{
+	margin: 10px 0;
+}
+.text__img img{
+	max-width: 100%;
+}
+.text__subtitle.games__subtitle{
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 0px 0px 10px 0px;
+	text-transform: uppercase;
+}
